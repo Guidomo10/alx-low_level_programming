@@ -4,6 +4,7 @@
 2) This script generates the assembly code of a C code.
 3) This script comp
 iles a C file and creates an executable named cisfun.
-4) This script puts exactly a name following by a new line
-6) This script prints exactly a name followed by a new line
-7) This script prints the size of various types on the computer it is compiled and run on.
+4) This program puts exactly a name following by a new line
+6) This programm prints exactly a name followed by a new line
+7) This progamm prints the size of various types on the computer it is compiled and run on.
+101) this generates the assembly code (Intel syntax) of a C code and save it in an output file.
