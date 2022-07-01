@@ -6,3 +6,4 @@
 iles a C file and creates an executable named cisfun.
 4) This script puts exactly a name following by a new line
 6) This script prints exactly a name followed by a new line
+7) This script prints the size of various types on the computer it is compiled and run on.
