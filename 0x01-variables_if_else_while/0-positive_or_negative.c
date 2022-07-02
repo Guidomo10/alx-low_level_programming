@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 /**
- * main ->prints a random number if number is positive, zero or negative
- * main -entry point
- * return: Always 0
+ * main ->prints a random number if number is positive, zero or negative.
+ * return: Always 0.
  */
 
-int main(void);
+int main(void)
 {
-int n;
+int Numbers;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
