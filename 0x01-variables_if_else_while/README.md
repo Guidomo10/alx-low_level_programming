@@ -9,4 +9,5 @@
 7) This programm prints the lowercase alphabet in reverse.
 8) This programm prints all the numbers of base 16 in lowercase with purchar function.
 9) this programm prints all possible combinations of single-digit numbers.
-101) This program prints all possible different combinations of two digits.
+100) This program prints all possible different combinations of two digits.
+101) This programm all possible different combinations of three digits.
