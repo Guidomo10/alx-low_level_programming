@@ -4,3 +4,4 @@
 2) This program prints the alphabet in lowercase,
 3) This programm prints the alphabet in lowercase, and then in uppercase.
 4) This  program that prints the alphabet in lowercase,except q and e.
+5) This programm prints all single digit numbers of base 10 starting from 0,
