@@ -9,4 +9,4 @@ void prints_remaining_days(int months, int day, int year);
 int convert_day(int month, int day);
 void print_times_table(int n);
 
-#endif
+#endif /* MAIN_H */
