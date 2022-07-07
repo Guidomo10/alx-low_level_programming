@@ -4,5 +4,9 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+void prints_remaining_days(int months, int day, int year);
+int convert_day(int month, int day);
+void print_times_table(int n);
 
 #endif
