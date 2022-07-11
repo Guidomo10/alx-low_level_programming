@@ -5,3 +5,4 @@ C - Pointers, arrays and strings
 4) This programm Write a function that prints a string, followed by a new line
 5) This programm Write a function that prints a string, in reverse
 6) This programm Write a function that reverses a string.
+7) This programm write a fuction that prints character of a string
