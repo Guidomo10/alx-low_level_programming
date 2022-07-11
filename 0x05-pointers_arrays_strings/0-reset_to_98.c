@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  * reset_to_98 - change a value of integer use pointer
