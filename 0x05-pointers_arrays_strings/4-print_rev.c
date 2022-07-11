@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * print rev - print a string in reverse
+ * print_rev - print a string in reverse
  * @s: pointer char
  * return: void
  */
+
 void print_rev(char *s)
 {
 int i, n;
+
 for (i = 0; s[i] != '\0'; i++)
 {
 continue;
