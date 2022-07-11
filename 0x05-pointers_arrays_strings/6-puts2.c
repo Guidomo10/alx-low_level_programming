@@ -6,7 +6,7 @@
  * return: void
  */
 
-void puts2(char *str);
+void puts2(char *str)
 {
 int i, x;
 i = 0;
