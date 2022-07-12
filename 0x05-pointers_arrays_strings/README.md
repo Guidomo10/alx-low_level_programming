@@ -9,3 +9,4 @@ C - Pointers, arrays and strings
 8) This programm Write a function that prints half of a string
 9) This function prints n elements of an array of integers
 10) This function copies the string pointed 
+101) This function convert a string to an integer
