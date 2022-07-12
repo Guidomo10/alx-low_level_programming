@@ -5,7 +5,6 @@
  * @s: char
  * return: int
  */
-void _strlen(char *s)
 int _strlen(char *s);
 {
 int i;
