@@ -7,4 +7,5 @@ C - Pointers, arrays and strings
 6) This programm Write a function that reverses a string.
 7) This programm write a fuction that prints character of a string
 8) This programm Write a function that prints half of a string
-9) This function prints n elements of an array of integers 
+9) This function prints n elements of an array of integers
+10) This function copies the string pointed 
