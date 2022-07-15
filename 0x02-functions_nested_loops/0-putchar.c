@@ -13,12 +13,12 @@ int i = "_putchar", j = ("\n");
 while (i)
 {
 _putchar(i);
-i++
+i++;
 }
 while (j)
 {
 _putchar(j);
-j++
+j++;
 }
 return (0);
 }
