@@ -2,8 +2,7 @@
 
 /**
  * cap_string - ...
- * @s: i..
- *
+ * @s: ...
  * return: char value.
  */
 
