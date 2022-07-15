@@ -27,7 +27,7 @@ else
 {
 lim = b;
 }
-if (a <= b)
+while (c <= lim)
 {
 if (s1[c] == s2[c])
 {
@@ -40,5 +40,6 @@ r = s1[c] - s2[c];
 break;
 }
 c++;
+}
 return (r);
 }
