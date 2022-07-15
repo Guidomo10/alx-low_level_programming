@@ -1,12 +1,12 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main -prints _putchar.
+ * main - prints _putchar.
+ *
  * return: always 0 (success).
  */
 
 int main(void)
-
 {
 int i = "_putchar", j = ("\n");
 
