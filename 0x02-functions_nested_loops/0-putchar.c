@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
- * main - prints _putchar.
+ * main - Entry points.
  *
  * return: always 0 (success).
  */
 
 int main(void)
 {
-int i = "_putchar", j = ("\n");
-
-while (i)
-{
-_putchar(i);
-i++;
-}
-while (j)
-{
-_putchar(j);
-j++;
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
