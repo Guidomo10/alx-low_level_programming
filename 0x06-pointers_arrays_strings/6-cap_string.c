@@ -3,7 +3,7 @@
 /**
  * cap_string - ...
  * @s: ...
- * return: char value.
+ * Return: char value.
  */
 
 char *cap_string(char *s)
