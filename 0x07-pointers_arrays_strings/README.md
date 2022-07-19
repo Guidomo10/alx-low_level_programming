@@ -6,4 +6,5 @@
 4) This function searches a string for any of a set of bytes.
 5) This function  locates a substring
 6) This function prints the chessboard.
-7) This function prints the sum of the two diagonals of a square matrix of integers.
+7) This function prints the sum of the two diagonals of a square matrix of integers.8) This function sets the value of a pointer to a char.
+9) This  file contains the password for the crackme2 executable.
