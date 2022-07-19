@@ -10,18 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-int a = 0, b = 0;
-while (s[a])
+do {
+if (*s == c)
 {
-a++;
+break;
 }
-while (s[a])
-{
-if (c == s[b])
-{
-s += b;
+} while (*s++);
 return (s);
 }
-}
-return ('\0');
-}
+
