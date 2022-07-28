@@ -24,5 +24,5 @@ for (i = 0; i < size; i++)
 {
 x[i] = c;
 }
-return (0);
+return (x);
 }
