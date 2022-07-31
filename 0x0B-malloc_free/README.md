@@ -8,3 +8,5 @@
 3) This function returns a pointer to a 2 dimensional array of integers.
 4) This function frees a 2 dimensional grid previously created by your
  alloc-grid function.
+5) This function concatenates all the arguments of your program.
+6) This function splits a string into words.
