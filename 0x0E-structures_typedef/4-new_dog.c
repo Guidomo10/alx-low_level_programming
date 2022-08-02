@@ -34,7 +34,7 @@ if (owner == NULL)
 new_d->owner = NULL;
 else
 {
-ew_d->owner = malloc(_strlen(owner) + 1);
+new_d->owner = malloc(_strlen(owner) + 1);
 if (new_d->owner == NULL)
 {
 free(new_d->name);
@@ -71,7 +71,7 @@ return (i);
 
 char *_strcpy(char *x, char *y)
 {
-int *a = x;
+char *a = x;
 while (*y)
 *a++ = *y++;
 *a = '\0';
