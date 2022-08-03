@@ -20,8 +20,8 @@ return (-1);
 if (size && cmp != NULL && array != NULL)
 {
 for (i = 0; i < size; i++)
-i = cmp(array[i]);
 {
+i = cmp(array[i]);
 if (x != 0)
 return (i);
 }
