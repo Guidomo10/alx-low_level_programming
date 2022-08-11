@@ -14,7 +14,7 @@ const list_t *c = h;
 for (i = 0; c; i++)
 {
 if (c->str == NULL)
-printf("[0] (nill)\n");
+printf("[0] (nil)\n");
 else
 printf("[%d] %s\n", c->len, c->str);
 c = c->next;
