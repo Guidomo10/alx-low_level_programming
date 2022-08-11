@@ -1,6 +1,6 @@
-#include <stdio.h>"
+#include "lists.h"
 
-void print_first(void) _attribute_ ((constructor));
+void first(void) _attribute_ ((constructor));
 
 /**
  * print_first - prints two strings of character before main
@@ -8,7 +8,7 @@ void print_first(void) _attribute_ ((constructor));
  * Return: void
  */
 
-void print_first(void)
+void first(void)
 {
 printf("You're beat! and yet, you must allow,\n");
 printf("I bore my house upon my back!\n");
