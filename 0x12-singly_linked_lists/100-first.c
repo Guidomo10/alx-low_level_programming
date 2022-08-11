@@ -1,6 +1,6 @@
 #include "lists.h"
 
-void print_first(void);
+void print_first(void) _attribute_ ((constructor));
 
 /**
  * print_first - prints two strings of character before main
