@@ -1,5 +1,7 @@
 #include "lists.h"
 
+void print_first(void);
+
 /**
  * print_first - prints two strings of character before main
  *
