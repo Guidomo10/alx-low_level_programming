@@ -7,3 +7,5 @@
 4) This function sets the value of a bit to 0 at a given index.
 5) returns the number of bits you would need to flip to get from one
     number to another.
+6) This function checks the indianness.
+7) This is the code of crakme3
