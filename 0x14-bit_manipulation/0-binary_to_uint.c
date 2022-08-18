@@ -16,9 +16,10 @@ return (i);
 }
 
 /**
- * int binary_to_uint - converts a binary number to an unsigned int.
+ * binary_to_uint - converts a binary number to an unsigned int.
  * @b: pointer to a converted character
- * Return: the converted number
+ *
+ * Return: the converted number: unsigned integger
  */
 
 unsigned int binary_to_uint(const char *b)
