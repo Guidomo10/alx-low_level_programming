@@ -34,7 +34,7 @@ char buff[1024];
 ofd = open(file_one, O_RDONLY);
 if (!file_one || ofd == -1)
 {
-dprintf(STDERR_FILENO, "Error: can't read from file %s\n", file_one);
+dprintf(STDERR_FILENO, "Error: can't read from file_one %s\n", file_one);
 exit(98);
 }
 tfd = open(file_two, O_CREAT | O_WRONLY | O_TRUNC, 0664);
@@ -42,24 +42,23 @@ while ((readed = read(ofd, buff, 1024)) > 0)
 {
 if (write(tfd, buff, readed) != readed || tfd == -1)
 {
-dprintf(STDERR_FILENO, "Error: can't write to %s\n", file_two);
+dprintf(STDERR_FILENO, "Error: can't write to file_two %s\n", file_two);
 exit(99);
 }
 }
 if (readed == -1)
 {
-dprintf(STDERR_FILENO, "Error: can't read from file %s\n", file_one);
+dprintf(STDERR_FILENO, "Error: can't read from file_one %s\n", file_one);
 exit(98);
 }
 if (close(ofd) == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", ofd);
+dprintf(STDERR_FILENO, "Error: Can't close file_one %d\n", ofd);
 exit(100);
 }
 if (close(tfd) == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", tfd);
+dprintf(STDERR_FILENO, "Error: Can't close file_two %d\n", tfd);
 exit(100);
 }
 }
-
